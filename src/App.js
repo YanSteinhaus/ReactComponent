@@ -21,6 +21,7 @@ const Professor = (props) =>{
   )
 }
 
+
 const ODS = (props) =>{
   return(
     <div>
@@ -41,10 +42,10 @@ function App(){
   return(
     <div className="container">
         <h1>Equipe de Extensão ADS 4: </h1>
-        <ODS ods="9"/>
-        <Projeto projeto="Aplicativo Achados e Perdidos"/>
-        <Equipe nome="Diego" atribuicao="TechLead"/>
-        <Equipe nome="Enthoni" atribuicao="Dev. Frontend"/>
+        <ODS ods="8"/>
+        <Projeto projeto="Controle de Gastos"/>
+        <Equipe nome="Yan" atribuicao="TechLead"/>
+        <Equipe nome="Vitor" atribuicao="Dev. Frontend"/>
         <Equipe nome="Mateus" atribuicao="Dev. Backend"/>
         <Professor professor="Marcio e Karen"/>
     </div>
